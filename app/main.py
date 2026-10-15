@@ -1280,4 +1280,3 @@ def explain_endpoint(
         "collection": collection,
         "explain": _run_explain(collection, pipeline),
     }
-
