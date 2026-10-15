@@ -5,4 +5,3 @@
 3. **Ties.** `$rank` gives equal totals the same rank and skips the next. Filtering by rank returns every employee tied at the cutoff; results sort by total minutes and `emp_code`.
 4. **Headcount.** Department summary starts with employees joined by month end, groups them before looking up attendance, and preserves groups without logs. They count toward headcount with zero attendance totals.
 5. **100x data.** I would benchmark query load and consider maintained daily rollups for expensive department and leaderboard analytics, retaining source logs for auditability and corrections.
-
