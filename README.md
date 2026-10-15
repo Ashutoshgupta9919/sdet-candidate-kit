@@ -19,4 +19,3 @@ uvicorn app.main:app --port 8000
 ```
 
 Open `http://127.0.0.1:8000/docs` for the interactive API documentation. MongoDB must be running, or `MONGO_URI` must point to an available MongoDB instance.
-
