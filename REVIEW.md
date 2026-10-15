@@ -20,4 +20,3 @@
 | 16 | Remaining API | Punch-out, regularization, four analytics endpoints, and explain were missing. | Request each path from the contract. | Implemented all required routes, with analytics expressed as MongoDB aggregation pipelines. |
 
 The environment loading behavior was not a defect: `load_dotenv()` leaves real environment variables in priority. The `emp_code` field is the business identifier; MongoDB `_id` remains internal and is not returned by the API.
-
